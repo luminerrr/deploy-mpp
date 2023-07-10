@@ -46,7 +46,6 @@ export default function Tracker() {
     }
   }, [time]);
 
-  console.log(currentCoordinates)
 
   return (
     <UserLayout>
