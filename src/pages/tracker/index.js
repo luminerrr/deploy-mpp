@@ -35,7 +35,7 @@ export default function Tracker() {
   useEffect(() => {
     const interval = setInterval(() => {
       setTime((now) => now + 1);
-    }, 200);
+    }, 1000);
 
     return () => clearInterval(interval);
   }, []);

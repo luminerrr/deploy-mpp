@@ -14,8 +14,6 @@ export default function Monitor() {
   }));
 
 
-
-
   return (
     <UserLayout>
       <Flex direction="column">
